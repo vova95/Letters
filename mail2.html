@@ -22,44 +22,6 @@ a {
 	color: black;
 }
 
-@media only screen and (max-width: 320px) {
-
-	body { 
-		width: auto !important;
-	}
-
-	table[class="main_table"] {
-		width:320px!important;
-		max-width:320px!important;
-		min-width:320px!important;
-	}
-	table[class="themes"] {
-		width: 290px !important;
-	}
-	img[class="shadow"] {
-		width: 290px !important;
-	}
-	td[class="logo"] {
-		display: block !important;
-		padding-left: 0;
-	}
-	td[class="pages"] {
-		display: block !important;
-	}
-	td[class="monster_pages"] {
-		width: 290px !important;
-	}
-	td[class="post"] {
-		display: block !important;
-		padding-top: 9px !important;
-	}
-	td[class="posts_separator"] {
-		height: 0 !important;
-	}
-
-}
-
-
 </style>
 </head>
 
@@ -74,7 +36,7 @@ a {
 
 <body style="margin:0px;" bgcolor="#FFFFFF">
 
-<table class="main_table" cellpadding="0"cellspacing="0" border="0" width="600" align="center" style="display:block!important;width:600px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family:arial;" bgcolor="#FFFFFF">
+<table cellpadding="0"cellspacing="0" border="0" width="600" align="center" style="display:block!important;width:600px!important;max-width:600px!important;min-width:600px!important;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family:arial;" bgcolor="#FFFFFF">
 	<tr>
 		<td style="padding-left: 30px;padding-right: 30px;">
 		
@@ -86,7 +48,7 @@ a {
 								<td width="20">
 									<img src="img/!.png" width="15px" height="15px" alt="">
 								</td>
-								<td  style="font-size: 14px;" align="left">
+								<td  style="font-size: 14px;">
 									Лорэм ипсум доллор сит амет
 								</td>
 							</tr>
@@ -102,15 +64,16 @@ a {
 		</td>
 	</tr>
 	<tr>
-		<td style="padding-left: 30px;padding-right: 30px;padding-bottom: 15px;padding-top: 15px;" width="540" class="monster_pages">
-			<table cellpadding="0" cellspacing="0" border="0" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family:arial;">
+		<td style="padding-left: 30px;padding-right: 30px;padding-bottom: 15px;padding-top: 15px;">
+			<table cellpadding="0" cellspacing="0" border="0" width="540" align="center" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family:arial;">
 				<tr>
-					<td class="logo">
+					<td>
 					<img src="img/logo-tm-retina.png" width="157" height="29" alt="logo">
 					</td>
-					<td class="pages" style="text-align: right;">
-						<table cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family:arial;text-align: right;">
+					<td>
+						<table cellpadding="0" cellspacing="0" border="0" align="right" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family:arial;">
 										<tr>
+											<td width="25px"></td>
 											<td>
 												<a href=""><img src="img/f.png" width="25" height="26" border="none" alt="fb"></a>
 											</td>
@@ -132,6 +95,7 @@ a {
 											</td>
 										</tr>
 									</table>
+						
 					</td>
 				</tr>
 			</table>
@@ -139,7 +103,7 @@ a {
 	</tr>
 	<tr>
 		<td align="center">
-			<img src="img/shadow-top.png" width="540px" alt="" class="shadow">
+			<img src="img/shadow-top.png" width="540px" alt="">
 		</td>
 	</tr>
 	<tr>
@@ -150,7 +114,7 @@ a {
 						<img src="img/shadow-left.png" height="51" alt="">
 					</td>
 					<td>
-						<table cellpadding="0" cellspacing="0" border="0" width="540" align="center" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family:arial;font-size: 10px;padding: 10px;" class="themes">
+						<table cellpadding="0" cellspacing="0" border="0" width="540" align="center" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family:arial;font-size: 10px;padding: 10px;">
 							<tr>
 								<td width="30px" height="25px" align="left">
 									<img src="img/wp.png" width="25px" height="25px" alt="wp">
@@ -184,7 +148,7 @@ a {
 	</tr>
 	<tr>
 		<td align="center">
-			<img src="img/shadow-bottom.png" width="540px" alt="" class="shadow">
+			<img src="img/shadow-bottom.png" width="540px" alt="">
 		</td>
 	</tr>
 	<tr>
@@ -262,7 +226,7 @@ a {
 		<td style="background: #f1f1f1; padding: 25px 30px;">
 			<table cellpadding="0" cellspacing="0" border="0" width="540" align="center" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family:arial;">
 				<tr>
-					<td width="165" class="post">
+					<td width="165">
 						<table cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family:arial; background: white;" width="165">
 							<tr>
 								<td style="padding: 6px 6px 12px 6px">
@@ -301,9 +265,9 @@ a {
 							</tr>
 						</table>
 					</td>
-					<td width="30px" style="background: #f1f1f1;" class="post">
+					<td width="30px" style="background: #f1f1f1;">
 					</td>
-					<td width="165" class="post">
+					<td width="165">
 						<table cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family:arial; background: white;" width="165">
 							<tr>
 								<td style="padding: 6px 6px 12px 6px">
@@ -342,9 +306,9 @@ a {
 							</tr>
 						</table>
 					</td>
-					<td width="30px" style="background: #f1f1f1;" class="post">
+					<td width="30px" style="background: #f1f1f1;">
 					</td>
-					<td width="165" class="post">
+					<td width="165">
 						<table cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family:arial; background: white;" width="165">
 							<tr>
 								<td style="padding: 6px 6px 12px 6px">
@@ -385,10 +349,10 @@ a {
 					</td>
 				</tr>
 				<tr>
-					<td colspan="5" height="30" class="posts_separator">&nbsp</td>
+					<td colspan="5" height="30">&nbsp</td>
 				</tr>
 				<tr>
-					<td width="165" class="post">
+					<td width="165">
 						<table cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family:arial; background: white;" width="165">
 							<tr>
 								<td style="padding: 6px 6px 12px 6px">
@@ -427,9 +391,9 @@ a {
 							</tr>
 						</table>
 					</td>
-					<td width="30px" style="background: #f1f1f1;" class="post">
+					<td width="30px" style="background: #f1f1f1;">
 					</td>
-					<td width="165" class="post">
+					<td width="165">
 						<table cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family:arial; background: white;" width="165">
 							<tr>
 								<td style="padding: 6px 6px 12px 6px">
@@ -468,9 +432,9 @@ a {
 							</tr>
 						</table>
 					</td>
-					<td width="30px" style="background: #f1f1f1;" class="post">
+					<td width="30px" style="background: #f1f1f1;">
 					</td>
-					<td width="165" class="post">
+					<td width="165">
 						<table cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family:arial; background: white;" width="165">
 							<tr>
 								<td style="padding: 6px 6px 12px 6px">
